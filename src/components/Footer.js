@@ -5,7 +5,9 @@ const Footer = () => {
     return(
         <div className="container">
             <div className="footer">
-                <p>all work © Jonathan Grundy 2021 • all rights reserved</p>
+                <p className = "col-sm">
+                    &copy;{new Date().getFullYear()} Jonathan Learns Developing | All Rights Reserved |  | Privacy
+                </p>
             </div>    
         </div>
     );
