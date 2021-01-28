@@ -11,6 +11,9 @@ const Home = () => {
                 <p>Hello, I'm Jonathan!</p>
                 <p>I like making things and meeting new people.</p>
             </div>
+            <div className = "devpics">
+                <img className = "devpic" src="images/devpic.jpg" alt="devpic"></img>
+            </div>
         </div>
     );
 }
