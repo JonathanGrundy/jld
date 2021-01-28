@@ -1,0 +1,23 @@
+.profilepic {
+    /* border-radius: 50%; */
+    height: 400px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.pic :hover {
+    transform: scale(1.1);
+}
+
+.intro {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Capriola', sans-serif;
+    font-size: 1.5em;
+}
